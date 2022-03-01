@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cvs-sso-node-client
+  description: A node.js client for CVS SSO.
+  tags: 
+    - node
+    - sso
+    - client
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/cvs-sso-node-client
+spec:
+  type: sso
+  lifecycle: dev
+  owner: devsecops
+  system: node
