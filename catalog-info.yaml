@@ -10,6 +10,7 @@ metadata:
     - client
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/cvs-sso-node-client
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: library
   lifecycle: experimental
